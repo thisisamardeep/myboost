@@ -1,0 +1,5 @@
+1) Do first recipe all via makefile
+2) Do first recipe via cmake
+
+
+	g++ -Wall -O0 -g3 -Wunused-parameter main.cpp -I/usr/include/boost  -o main.o -lboost_program_options -L.
