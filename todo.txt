@@ -3,3 +3,10 @@
 
 
 	g++ -Wall -O0 -g3 -Wunused-parameter main.cpp -I/usr/include/boost  -o main.o -lboost_program_options -L.
+	g++ -std=c++17 -Wall -O0 -g3 -Wunused-parameter main.cpp -I./boost -o main.o -lboost_program_options -L.
+	g++ -std=c++17 -Wall -O0 -g3 -Wunused-parameter main.cpp -o main.o -lboost_program_options -L. -print-search-dirs -print-sysroot -print-multi-os-directory
+	g++ -std=c++17 -Wall -O0 -g3 -Wunused-parameter main.cpp -o main.o -lboost_program_options -L.
+   	g++ -std=c++17 -Wall -O0 -g3 -Wunused-parameter main.cpp -o main.o -lboost_program_options
+
+
+LD_LIBRARY_PATH=/home/amardeep_singh/Desktop/spad/boosttest/boost_1_78_0/myins/lib
